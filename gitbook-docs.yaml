@@ -1,0 +1,74 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Energy Hardware Bench
+  structure:
+    - type: section
+      key: section-1
+      title: About
+      path: home
+      description: ""
+      icon: fire-flame-simple
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Home
+          path: home
+          default: true
+          content:
+            directory: ./home
+    - type: section
+      key: section-2
+      title: Documentation
+      path: documentation
+      icon: book-blank
+      children:
+        - type: space
+          key: space-2
+          title: Documentation
+          path: documentation
+          default: true
+          content:
+            directory: ./documentation
+    - type: section
+      key: section-3
+      title: Updates
+      path: updates
+      description: ""
+      icon: clock-rotate-left
+      children:
+        - type: space
+          key: space-3
+          title: Updates
+          path: changelog
+          default: true
+          content:
+            directory: ./updates/changelog
+    - type: section
+      key: section-4
+      title: Collaborations & Licensing
+      path: collab
+      description: ""
+      icon: people-pulling
+      children:
+        - type: space
+          key: space-4
+          title: Collaborations & Licensing
+          path: untitled
+          default: true
+          content:
+            directory: ./collab/untitled
+    - type: section
+      key: section-5
+      title: Funding Sources & Acknowledgements
+      path: thanks
+      description: ""
+      icon: heart
+      children:
+        - type: space
+          key: space-5
+          title: Funding Sources & Acknowledgements
+          path: untitled
+          default: true
+          content:
+            directory: ./thanks/untitled
